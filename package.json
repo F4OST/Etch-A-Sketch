@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "format": "prettier --write \"**/*.js\"",
+    "prettier": "^2.8.8"
+  }
+}

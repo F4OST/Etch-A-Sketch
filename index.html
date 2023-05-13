@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bruno+Ace+SC&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+    <title>My Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="top-text">
+        <p>ETCH A SKETCH GAME</p>
+    </div>
+
+    <div id="nav">
+        <ul style="list-style: none; padding: 0; margin: 0; display: flex">
+            <li>PRESS</li>
+            <li>W</li>
+            <li>A</li>
+            <li>S</li>
+            <li>D</li>
+            <li>OR</li>
+            <li><img src="./images/arrow_left.png " width="15" height="15" /></li>
+            <li><img src="./images/arrow_right.png " width="15" height="15" /></li>
+            <li><img src="./images/arrow_up.png " width="15" height="15" /></li>
+            <li><img src="./images/arrow_down.png " width="15" height="15" /></li>
+            <li>TO START ETCHING</li>
+        </ul>
+    </div>
+    <div id="main">
+        <div class="con">
+            <p class="top">Etch A Sketch</p>
+
+            <div id="container"></div>
+            <img class="l-knob" src="./images/knob.png" width="115" height="115" />
+            <img class="r-knob" src="./images/knob.png" width="115" height="115" />
+        </div>
+    </div>
+    <div id="tools">
+        <input type="color" value="#000000" id="colorInput" />
+        <button id="clear">CLEAR</button>
+    </div>
+    <div class="footer">
+        <p id="footer-text">
+            Made By
+            <a href="https://github.com/F4OST" target="_blank" id="dev-link">F4OST</a>
+        </p>
+
+        <img src="./images/github.png " alt="github logo" width="50" height="50" />
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

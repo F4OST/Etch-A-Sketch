@@ -1,0 +1,167 @@
+body {
+  background: linear-gradient(to bottom, #001fff, #ff69b4);
+}
+
+#nav {
+  display: flex;
+  justify-content: center;
+}
+
+#top-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  font-family: "Mulish", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: gold;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.9);
+  text-shadow: 1px 1px #000;
+}
+
+li {
+  background-color: #cbbfbf;
+  color: #515151;
+  font-family: "Bebas Neue", sans-serif;
+  border-bottom: 4px solid #502bcb;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 3px;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  width: 36px;
+}
+
+li:first-child {
+  margin-right: 30px;
+}
+
+li:first-child,
+li:last-child {
+  width: auto;
+
+  font-weight: bold;
+  font-family: "Mulish", sans-serif;
+}
+
+ul li:nth-child(6) {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+ul li:nth-child(10) {
+  margin-right: 40px;
+}
+
+#main {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.con {
+  padding: 0px 70px 150px 70px;
+  position: relative;
+  background-color: #d10000;
+  background-clip: padding-box;
+}
+
+#container {
+  position: relative;
+  display: flex;
+
+  flex-wrap: wrap;
+  height: 330px;
+  width: 600px;
+  background-color: rgb(204, 200, 195);
+  outline: 1px red solid;
+}
+
+.l-knob {
+  position: absolute;
+  padding-top: 15px;
+  right: 40px;
+}
+
+.r-knob {
+  position: absolute;
+  padding-top: 15px;
+  left: 40px;
+}
+
+.top {
+  position: relative;
+  font-family: "Bruno Ace SC", sans-serif;
+  font-size: 2em;
+  color: gold;
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.9);
+  text-shadow: 1px 1px #000;
+}
+
+.grid {
+  box-sizing: border-box;
+  outline: red solid;
+  outline: 1px;
+}
+
+.start {
+  box-sizing: border-box;
+  background-color: red;
+  outline: 1px;
+}
+
+#tools {
+  display: flex;
+  position: absolute;
+  top: 45rem;
+  right: 43rem;
+  gap: 8pc;
+}
+
+#colorInput {
+  cursor: pointer;
+}
+
+#clear {
+  font-family: "Mulish", sans-serif;
+  color: #4e3d3d;
+  font-weight: bold;
+
+  width: 63px;
+  height: 27px;
+  cursor: pointer;
+}
+
+#clear:hover {
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  color: #000;
+}
+
+#footer-text {
+  font-size: x-large;
+  letter-spacing: 0.5em;
+  margin-right: 20px;
+}
+
+#dev-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
